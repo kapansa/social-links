@@ -1,0 +1,77 @@
+/* colors */
+
+/* primary: #c4f82a */
+/* bg color: #141414 */
+/* card bg color: #1f1f1f */
+/* button color: #333333 */
+
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap');
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+body {
+      background-color: #141414;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      font-family: "Padauk", sans-serif;
+}
+
+.card {
+      background-color: #1f1f1f;
+      border-radius: 10px;
+      padding: 40px;
+      text-align: center;
+}
+
+.profile_image img {
+      border-radius: 100%;
+      width: 100px;
+      height: 100px;
+}
+
+.person_details {
+      padding: 20px 0;
+}
+
+.title {
+      padding: 20px 0;
+}
+
+.title p {
+      color: #fff;
+      font-size: 20px;
+}
+
+.person_details h1 {
+      color: #fff;
+      font-size: 40px;
+}
+
+.person_details h3 {
+      color: #c4f82a;
+      font-size: 28px;
+}
+
+.social_links a {
+      color: #fff;
+      text-decoration: none;
+      display: block;
+      background-color: #333333;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 10px 0;
+      font-size: 22px;
+      font-weight: bold;
+      transition: all 0.7s;
+}
+
+.social_links a:hover {
+      background-color: #c4f82a;
+      color: #141414;
+}
